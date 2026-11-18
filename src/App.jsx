@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from './components/Header.jsx'
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import{ BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 function App() {
 
   return (
-    <div>
+    <Router>
       <Header />
       <main>
         <div className="bg-blue-600 text-white p-10 text-center">
@@ -13,7 +14,7 @@ function App() {
           </h1>
         </div>
       </main>
-    </div>
+    </Router>
   )
 }
 
