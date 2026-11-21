@@ -7,7 +7,7 @@ function Header() {
   return (
     <div>
 
-      <header className="bg-gray-800 text-white p-4 flex items-center justify-between">
+      <header className="bg-gray-800 text-white p-4 flex items-center justify-between gap-10">
         <img src={logo} alt="Logo" className="h-11 w-11" />
         <nav className="flex space-x-4">
           <Link to="/" className="hover:text-gray-400">
